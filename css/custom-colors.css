@@ -1,0 +1,174 @@
+/*  */
+
+:root {
+    --primary-color: #FF6B35 !important;      /* Vibrant Orange - Construction Theme */
+    --secondary-color: #2B3A67 !important;    /* Deep Navy Blue */
+    --accent-color: #FFB563 !important;       /* Soft Orange */
+    --dark-color: #1D1D1D !important;         /* Almost Black */
+    --light-color: #F5F5F5 !important;        /* Off White */
+    --gray-color: #E6E8E6 !important;         /* Light Gray */
+    --success-color: #4CAF50 !important;      /* Green */
+    --white: #ffffff !important;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: var(--white) !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+
+.header-top {
+    background-color: var(--dark-color) !important;
+    color: var(--white) !important;
+    padding: 8px 0 !important;
+}
+
+.header-lower {
+    background-color: var(--white) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05) !important;
+}
+
+/* Navigation Styles - Updated */
+.main-menu {
+    background-color: var(--white) !important;
+}
+
+.main-menu .navigation > li > a {
+    color: var(--dark-color) !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    letter-spacing: 0.5px !important;
+    padding: 15px 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+.main-menu .navigation > li:hover > a {
+    color: var(--primary-color) !important;
+    background-color: transparent !important;
+}
+
+.main-menu .navigation > li.current > a {
+    color: var(--primary-color) !important;
+    font-weight: 600 !important;
+}
+
+/* Button Styles - Updated */
+.main-btn {
+    background-color: var(--primary-color) !important;
+    color: var(--white) !important;
+    border: none !important;
+    padding: 12px 30px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: all 0.3s ease !important;
+}
+
+.main-btn:hover {
+    background-color: var(--secondary-color) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+/* Section Titles - Updated */
+.section-title h3 {
+    color: var(--secondary-color) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+}
+
+.section-title span {
+    color: var(--primary-color) !important;
+}
+
+/* Service Boxes - Updated */
+.single-item {
+    background: var(--white) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid var(--gray-color) !important;
+}
+
+.single-item:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+/* Sticky Header - Updated */
+.sticky-header {
+    background-color: var(--white) !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08) !important;
+}
+
+.sticky-header .main-menu .navigation > li > a {
+    color: var(--dark-color) !important;
+}
+
+.sticky-header .main-menu .navigation > li:hover > a {
+    color: var(--primary-color) !important;
+}
+
+/* Contact Forms - Updated */
+.form-control {
+    border: 2px solid var(--gray-color) !important;
+    border-radius: 6px !important;
+    padding: 12px 15px !important;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 53, 0.25) !important;
+}
+
+/* Footer - Updated */
+.footer-sec {
+    background-color: var(--secondary-color) !important;
+    color: var(--light-color) !important;
+}
+
+.footer-title {
+    color: var(--white) !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+    padding-bottom: 10px !important;
+}
+
+/* Call to Action - Updated */
+.cta-section {
+    background: linear-gradient(45deg, var(--secondary-color), var(--dark-color)) !important;
+    color: var(--white) !important;
+    border-radius: 8px !important;
+    padding: 50px !important;
+}
+
+/* Social Icons - Updated */
+.social-icons a {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: var(--white) !important;
+    border-radius: 50% !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    text-align: center !important;
+    margin: 0 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color) !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Mobile Menu - Updated */
+.navbar-toggle .icon-bar {
+    background-color: var(--dark-color) !important;
+}
+
+@media (max-width: 767px) {
+    .main-menu .navbar-collapse {
+        background-color: var(--white) !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+    }
+}
